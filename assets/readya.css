@@ -19,7 +19,8 @@ h1 {
 .container-narrow {
     margin: 0 auto;
     max-width: 700px;
-    background-color: #cdcdcd;
+    background: rgb(205, 205, 205);
+    background: rgba(205, 205, 205, .90);
 }
 
 .container-narrow > hr {
