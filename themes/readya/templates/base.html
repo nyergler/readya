@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Read Ya!{% block title %}{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="{{ SITEURL }}/theme/bootstrap/css/bootstrap.min.css"
+          rel="stylesheet" media="screen">
+    <link href="{{ SITEURL }}/theme/css/readya.css"
+          rel="stylesheet" media="screen">
+  </head>
+  <body class="{% block bodyclass %}{% endblock %}">
+
+    {% block body %}
+    <div class="container-narrow well">
+
+    {% block content %}
+    {% endblock %}
+
+    {% block footer %}
+      <div id="footer">
+        <p>&copy; 2013, <a href="http://yergler.net/">Nathan
+        Yergler</a> Questions? Email nathan@readya.org</p>
+      </div>
+    {% endblock %}
+
+    </div>
+
+    {% endblock %}
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-188298-9', 'readya.org');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>

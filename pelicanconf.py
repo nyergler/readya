@@ -15,6 +15,17 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+DIRECT_TEMPLATES = (
+    'tags',
+    'categories',
+    'archives',
+)
+
+DEFAULT_CATEGORY = 'letters'
+
+ARTICLE_URL = '{date:%Y}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
@@ -29,3 +40,9 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+TEMPLATE_PAGES = {
+    'signup.html': 'index.html',
+}
+
+THEME = 'themes/readya'
