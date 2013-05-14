@@ -6,7 +6,7 @@ AUTHOR = u'Nathan Yergler'
 SITENAME = u'Read Ya!'
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
@@ -14,6 +14,7 @@ DEFAULT_LANG = u'en'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+DEFAULT_DATE_FORMAT = "%A, %B %d, %Y"
 
 DIRECT_TEMPLATES = (
     'tags',
