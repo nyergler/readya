@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Nathan Yergler'
 SITENAME = u'Read Ya!'
+SITEDOMAIN = ''
 SITEURL = ''
 
 TIMEZONE = 'America/Los_Angeles'
@@ -47,6 +48,7 @@ DEFAULT_PAGINATION = 10
 
 TEMPLATE_PAGES = {
     'signup.html': 'index.html',
+    'CNAME': 'CNAME',
 }
 
 THEME = 'themes/readya'

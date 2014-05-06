@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://readya.org'
+SITEDOMAIN = 'www.readya.org'
+SITEURL = 'http://%s' % (SITEDOMAIN,)
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
