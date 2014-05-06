@@ -28,6 +28,7 @@ ARTICLE_URL = '{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
 AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+ARCHIVES_SAVE_AS = 'archives/index.html'
 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
