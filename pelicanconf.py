@@ -52,4 +52,3 @@ TEMPLATE_PAGES = {
 }
 
 THEME = 'themes/readya'
-GOOGLE_ANALYTICS = 'UA-188298-9'
