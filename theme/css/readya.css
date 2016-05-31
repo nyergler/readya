@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico|Open+Sans);
 
 body {
-    background: url('../images/background.jpg') no-repeat center center fixed;
+    background: url('../images/background.jpg') no-repeat center center / cover fixed;
     font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
     display: compact;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    font-size: 16px;
     margin-top: 20px;
+}
+
+body.letter {
+    background: url('../images/background-70.jpg') no-repeat center center / cover fixed ;
 }
 
 body.signup {
@@ -77,7 +78,7 @@ section.body header h2 {
 
 .entry-content {
     text-align: left;
-    line-height: 1.7em;
+    line-height: 1.8em;
     margin: auto 25px;
 }
 
