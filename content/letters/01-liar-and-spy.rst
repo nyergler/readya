@@ -5,7 +5,7 @@
 :date: 2013-05-14
 :author: Nathan
 
-.. image:: /static/images/liar-spy.jpg
+.. image:: /images/liar-spy.jpg
    :class: align-left
 
 A secret club of two. Science class. *Gym* class. The weird kid who's always drawing in class instead of paying attention. Bullies. These are all things that I remember from middle school, and they're all in "`Liar and Spy`_", by `Rebecca Stead`_. And in a way, they're all things that are still a part of my life.
@@ -20,7 +20,7 @@ Safer's Mom is a photographer. Stead never comes out and says it, but it seems o
 
 And then there are the bullies, led by Dallas and Carter. The kids who call Georges "Gorgeous" or "Jor-Jess". I admit that I cringed every time Georges tried to ignore their taunts, remembering my grandpa's advice, "they wouldn't tease you if they didn't like you." (Twenty-five years later, and I'm still not convinced.) The bullies aren't the center of "Liar and Spy", but Stead manages to use them to round out the middle school experience without feeling like a cliche. And the resolution of that story line manages to empower without feeling saccharine or unrealistic.
 
-.. figure:: /static/images/640px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.png
+.. figure:: /images/640px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.png
    :class: align-center
 
    "A Sunday Afternoon on the Island of La Grande Jatte", Georges Seurat, 1884
@@ -31,14 +31,18 @@ You should read "Liar and Spy" regardless of whether you have bullies, weird nei
 
 ------
 
-.. image:: /static/images/mixed-up-files.jpg
+.. image:: /images/mixed-up-files.jpg
    :class: align-right
 
 I was saddened to `read of the death`_ of `E. L. Konigsburg`_. I have a beat up copy of "From the Mixed-Up Files of Mrs. Basil E. Frankweiler" on my shelf, and still love the cover text: "Claudia knew she had to run away; the question was -- where should she run to?" My copy is old enough to be missing `cataloging-in-publication`_ and ISBN information, so dating it exactly is difficult, but it's one of two books I've been carrying around since (at least) fourth grade (the other is "Harriet the Spy"). I've started gently re-reading it, and am reminded of hiding in the school library during recess to read when I was a kid. Reading the obituary, I realized there's a whole collection of her work that I haven't read yet.
 
 Starting with Konigsburg's Wikipedia entry, I found out a little more about her biography. She went to college to study chemistry, because the point of college was to become a "something", and was the first person in her family to receive a degree. It wasn't until she had two children that she started taking painting lessons at an adult education center, and started writing when her third child started school. I think that makes the fact that she self-illustrated *Frankweiler* more fascinating: she started expressing herself one way, shifted, and then incorporated what she'd learned before to make the whole more compelling.
 
-The `transcript of an interview`_ with Scholastic is a fascinating read: "I think it's important to experience kindness, so that you can experience it more in the future. ... I think that if you have not observed kindness, you will not recognize it. You have to experience kindness in order to be kind. And you have to lay down those emotional pathways." (You'd think a website with a name so etymologically close to *scholar* and *scholarship* would understand the value of dating their resources. Alas.)
+The `transcript of an interview`_ with Scholastic is a fascinating read:
+
+  "I think it's important to experience kindness, so that you can experience it more in the future. ... I think that if you have not observed kindness, you will not recognize it. You have to experience kindness in order to be kind. And you have to lay down those emotional pathways."
+
+(You'd think a website with a name so etymologically close to *scholar* and *scholarship* would understand the value of dating their resources. Alas.)
 
 -----
 
