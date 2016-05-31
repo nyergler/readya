@@ -1,5 +1,6 @@
 {% extends "!simple/article.html" %}
 {% block title %}{{ SITENAME }} &mdash; {{ article.title|striptags }}{% endblock %}
+{% block bodyclass %}letter{% endblock %}
 {% block content %}
 <section id="content" class="body">
   <header>
