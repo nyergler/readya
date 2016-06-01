@@ -31,4 +31,6 @@ Random references that I loved:
 * Zima
 * CMYK process colors
 * The Crayola Caddy
-* It's a Wonderful Life --- "(Minus angel. Minus suicide. Minus quasi-rational explanation.)"
+* It's a Wonderful Life --- _"(Minus angel. Minus suicide. Minus quasi-rational explanation.)"_
+
+_Landline_ is a book I didn't want to put down and I didn't want to end. I hope you won't want to put it down, too.
