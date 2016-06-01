@@ -1,3 +1,4 @@
 pelican
 typogrify
+Markdown~=2.6.0
 ghp-import

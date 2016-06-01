@@ -52,3 +52,9 @@ TEMPLATE_PAGES = {
 }
 
 THEME = 'themes/readya'
+
+MD_EXTENSIONS = [
+    'codehilite(css_class=highlight)',
+    'extra',
+    'markdown.extensions.smarty',
+]
