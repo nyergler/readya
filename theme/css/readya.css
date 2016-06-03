@@ -1,13 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico|Open+Sans);
 
-body {
-    background: url('../images/background.jpg') no-repeat center center / cover fixed;
-    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
-    display: compact;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
 body.letter {
     background: url('../images/background-70.jpg') no-repeat center center / cover fixed ;
 }
@@ -17,13 +9,10 @@ body.signup {
     margin-top: 10%;
 }
 
-h1 {
-    font-family: 'Pacifico', cursive;
-}
-
 .container-narrow {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 750px;
+    padding: 20px;
     background: rgb(235, 235, 225);
     background: rgba(235, 235, 225, 1.0);
 }
@@ -36,10 +25,6 @@ div#footer {
 body.signup .container-narrow {
     background: rgb(205, 205, 205);
     background: rgba(205, 205, 205, .90);
-}
-
-.container-narrow > hr {
-    margin: 30px 0;
 }
 
 .jumbotron {
@@ -55,7 +40,49 @@ body.signup .container-narrow {
     padding: 14px 24px;
 }
 
+#mce-EMAIL {
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    vertical-align: middle;
+    width: 206px;
+}
+
+#mc-embedded-subscribe {
+    width: auto;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #5bb75b;
+    *background-color: #51a351;
+    background-image: -moz-linear-gradient(top,#62c462,#51a351);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#62c462),to(#51a351));
+    background-image: -webkit-linear-gradient(top,#62c462,#51a351);
+    background-image: -o-linear-gradient(top,#62c462,#51a351);
+    background-image: linear-gradient(to bottom,#62c462,#51a351);
+    background-repeat: repeat-x;
+    border-color: #51a351 #51a351 #387038;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462',endColorstr='#ff51a351',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    padding: 11px 19px;
+    font-size: 17.5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
 .lead {
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: center;
     margin: 0px 15%;
 }
 
@@ -77,8 +104,6 @@ section.body header h2 {
 }
 
 .entry-content {
-    text-align: left;
-    line-height: 1.8em;
     margin: auto 25px;
 }
 
@@ -123,4 +148,91 @@ img.align-center, .figure.align-center, object.align-center {
 .paginator {
     clear: both;
     text-align: center;
+}
+
+body {
+  background: url('../images/background.jpg') no-repeat center center / cover fixed;
+  font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 760px;
+  padding: 32px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 67px;
+  line-height: 96px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 42px;
+  line-height: 64px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+h3 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 26px;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+h4 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+h5 {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+hr {
+  margin: 20px 0;
+border: 0;
+border-top: 1px solid #eee;
+border-bottom: 1px solid #fff;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+a {
+  color: #268ED9;
 }
